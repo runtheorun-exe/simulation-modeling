@@ -31,7 +31,6 @@ while not infectionDone:
 
 xpoints = np.array(attempts)
 ypoints = np.array(infectionRate)
-print(len(attempts),len(infectionRate))
 plt.plot(xpoints, ypoints)
 plt.savefig("lab1/infectionrate.jpg")
 plt.show()
